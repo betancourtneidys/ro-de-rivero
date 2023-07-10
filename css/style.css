@@ -208,9 +208,6 @@ height: 100%;
 line-height: 170%;
 }
 
-body {
-}
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block;
 }
@@ -395,6 +392,9 @@ display: table-cell;
 vertical-align: middle;
 }
 
+.img-responsive {
+  border: solid 10px black;
+}
 
 /* 6. main navigation */
 
@@ -5463,7 +5463,7 @@ color: #b7b7b7!important;
   
   .navbar-nav > li {
     position: relative;
-    left: -50%;
+    left: -75%;
   }
   
   .navbar-nav > li a {
@@ -5698,23 +5698,13 @@ z-index: 10;
 
 .about-bg-1 {
 position: relative;
--webkit-border-radius: 0 50px 0 0;
-   -moz-border-radius: 0 50px 0 0;
-    -ms-border-radius: 0 50px 0 0;
-     -o-border-radius: 0 50px 0 0;
-        border-radius: 0 50px 0 0;
 }
 
 .about-bg-2 {
 position: relative;
--webkit-border-radius: 0 0 0 50px;
-   -moz-border-radius: 0 0 0 50px;
-    -ms-border-radius: 0 0 0 50px;
-     -o-border-radius: 0 0 0 50px;
-        border-radius: 0 0 0 50px;
 }
 
-.about-bg-2 {
+/* .about-bg-2 {
 top: 80px;
 }
 
@@ -5728,7 +5718,7 @@ top: 80px;
   .about-bg-2 {
     top: 70px;
   }
-}
+} */
 
 
 /* intro years */
@@ -5736,7 +5726,7 @@ top: 80px;
 position: relative;
 width: auto;
 height: auto;
-margin: 50px auto 0 auto;
+margin: 0 auto 0 auto;
 }
 
 .intro-years h2,
