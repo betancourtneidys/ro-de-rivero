@@ -133,24 +133,104 @@ background-image: url(../img/about/team/5.jpg);
 }
 
 
-/* 1.5. services benefits IMG BACKGROUND */
-.img-fullwidth-benefits-carousel-1 {
-background-image: url(../img/services/benefits/1.jpg);
+/* 1.5. services victoria IMG BACKGROUND */
+.img-fullwidth-victoria-carousel-1 {
+background-image: url(../img/services/victoria/1.jpg);
 }
 
-.img-fullwidth-benefits-carousel-2 {
-background-image: url(../img/services/benefits/2.jpg);
+.img-fullwidth-victoria-carousel-2 {
+background-image: url(../img/services/victoria/2.jpg);
 }
 
-
-/* 1.6. services offers IMG BACKGROUND */
-.img-fullwidth-offers-carousel-1 {
-background-image: url(../img/services/offers/1.jpg);
+.img-fullwidth-victoria-carousel-3 {
+background-image: url(../img/services/victoria/3.jpg);
 }
 
-.img-fullwidth-offers-carousel-2 {
-background-image: url(../img/services/offers/2.jpg);
+.img-fullwidth-victoria-carousel-4 {
+background-image: url(../img/services/victoria/4.jpg);
 }
+
+.img-fullwidth-victoria-carousel-5 {
+background-image: url(../img/services/victoria/5.jpg);
+}
+
+.img-fullwidth-victoria-carousel-6 {
+background-image: url(../img/services/victoria/6.jpg);
+}
+
+.img-fullwidth-victoria-carousel-7 {
+background-image: url(../img/services/victoria/7.jpg);
+}
+
+.img-fullwidth-victoria-carousel-8 {
+background-image: url(../img/services/victoria/8.jpg);
+}
+
+/* 1.6. services lithos IMG BACKGROUND */
+.img-fullwidth-lithos-carousel-1 {
+background-image: url(../img/services/lithos/1.jpg);
+}
+
+.img-fullwidth-lithos-carousel-2 {
+background-image: url(../img/services/lithos/2.jpg);
+}
+
+.img-fullwidth-lithos-carousel-3 {
+background-image: url(../img/services/lithos/3.jpg);
+}
+
+.img-fullwidth-lithos-carousel-4 {
+background-image: url(../img/services/lithos/4.jpg);
+}
+
+.img-fullwidth-lithos-carousel-5 {
+background-image: url(../img/services/lithos/5.jpg);
+}
+
+.img-fullwidth-lithos-carousel-6 {
+background-image: url(../img/services/lithos/6.jpg);
+}
+
+.img-fullwidth-lithos-carousel-7 {
+background-image: url(../img/services/lithos/7.jpg);
+}
+
+.img-fullwidth-lithos-carousel-8 {
+background-image: url(../img/services/lithos/8.jpg);
+}
+
+/* 1.6. services forty IMG BACKGROUND */
+.img-fullwidth-forty-carousel-1 {
+  background-image: url(../img/services/forty/1.jpg);
+  }
+  
+  .img-fullwidth-forty-carousel-2 {
+  background-image: url(../img/services/forty/2.jpg);
+  }
+  
+  .img-fullwidth-forty-carousel-3 {
+  background-image: url(../img/services/forty/3.jpg);
+  }
+  
+  .img-fullwidth-forty-carousel-4 {
+  background-image: url(../img/services/forty/4.jpg);
+  }
+  
+  .img-fullwidth-forty-carousel-5 {
+  background-image: url(../img/services/forty/5.jpg);
+  }
+  
+  .img-fullwidth-forty-carousel-6 {
+  background-image: url(../img/services/forty/6.jpg);
+  }
+  
+  .img-fullwidth-forty-carousel-7 {
+  background-image: url(../img/services/forty/7.jpg);
+  }
+  
+  .img-fullwidth-forty-carousel-8 {
+  background-image: url(../img/services/forty/8.jpg);
+  }
 
 
 /* 1.7. inside IMG BACKGROUND */
@@ -390,10 +470,6 @@ background: none;
 .center-block {
 display: table-cell;
 vertical-align: middle;
-}
-
-.img-responsive {
-  border: solid 10px black;
 }
 
 /* 6. main navigation */
@@ -3986,7 +4062,10 @@ z-index: 15;
 #menu,
 #services,
 #benefits,
+#victoria,
 #offers,
+#lithos,
+#forty,
 #blank,
 #inside,
 #blog,
@@ -4835,7 +4914,7 @@ z-index: 2;
 padding: 25px;
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 767px) {
   .legendary-gallery figure {
     padding: 0;
   }
@@ -5073,7 +5152,7 @@ line-height: 1.75;
 
 /* social icons */
 .social-icons {
-font-size: 12px;
+font-size: 18px;
 font-weight: 500;
 letter-spacing: -0.02em;
 }
@@ -5082,7 +5161,7 @@ letter-spacing: -0.02em;
 .social-icons li a:visited,
 .social-icons li a:active,
 .social-icons li a:focus {
-font-size: 12px;
+font-size: 18px;
 font-weight: 500;
 letter-spacing: -0.02em;
 }
