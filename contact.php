@@ -1,6 +1,7 @@
 ﻿<?php
 
-$myemail = 'betancourtfigueroa@grupomax.com.ar';
+$myemail = 'info@roderivero.com';
+
 
 $name    = $_POST['name'];
 $email   = $_POST['email'];
