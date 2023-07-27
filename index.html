@@ -1370,6 +1370,19 @@
         <!-- scripts start -->
         <script src="js/plugins.js"></script> 
         <script src="js/dinex.js"></script>
+        <script>
+            // Function to open video in a lightbox with autoplay
+            function openVideoWithAutoplay() {
+                lity('./img/Ro_De_Rivero.mp4', {
+                autoplay: true
+                });
+            }
+
+            // Open the video after 2 seconds
+            $(document).ready(function() {
+                setTimeout(openVideoWithAutoplay, 2000);
+            });
+        </script>
         <!-- scripts end -->
     </body>
 </html>
