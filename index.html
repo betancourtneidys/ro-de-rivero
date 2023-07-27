@@ -1371,16 +1371,16 @@
         <script src="js/plugins.js"></script> 
         <script src="js/dinex.js"></script>
         <script>
-            // Function to open video in a lightbox with autoplay
-            function openVideoWithAutoplay() {
-                lity('./img/Ro_De_Rivero.mp4', {
+            // Función para abrir el video en el lightbox con autoplay
+            function openVideoWithDelay() {
+                var lightbox = lity('./img/Ro_De_Rivero.mp4', {
                 autoplay: true
                 });
             }
 
-            // Open the video after 2 seconds
+            // Esperar 5 segundos (5000 milisegundos) después de que la página cargue
             $(document).ready(function() {
-                setTimeout(openVideoWithAutoplay, 2000);
+                setTimeout(openVideoWithDelay, 3000);
             });
         </script>
         <!-- scripts end -->
