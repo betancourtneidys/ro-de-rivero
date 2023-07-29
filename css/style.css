@@ -238,31 +238,35 @@ background-image: url(../img/services/roosevelt/1.jpg);
 }
 
 .img-fullwidth-roosevelt-carousel-2 {
-background-image: url(../img/services/roosevelt/1.jpg);
+background-image: url(../img/services/roosevelt/2.jpg);
 }
 
 .img-fullwidth-roosevelt-carousel-3 {
-background-image: url(../img/services/roosevelt/1.jpg);
+background-image: url(../img/services/roosevelt/3.jpg);
 }
 
 .img-fullwidth-roosevelt-carousel-4 {
-background-image: url(../img/services/roosevelt/1.jpg);
+background-image: url(../img/services/roosevelt/4.jpg);
 }
 
 .img-fullwidth-roosevelt-carousel-5 {
-background-image: url(../img/services/roosevelt/1.jpg);
+background-image: url(../img/services/roosevelt/5.jpg);
 }
 
 .img-fullwidth-roosevelt-carousel-6 {
-background-image: url(../img/services/roosevelt/1.jpg);
+background-image: url(../img/services/roosevelt/6.jpg);
 }
 
 .img-fullwidth-roosevelt-carousel-7 {
-background-image: url(../img/services/roosevelt/1.jpg);
+background-image: url(../img/services/roosevelt/7.jpg);
 }
 
 .img-fullwidth-roosevelt-carousel-8 {
-background-image: url(../img/services/roosevelt/1.jpg);
+background-image: url(../img/services/roosevelt/8.jpg);
+}
+
+.img-fullwidth-roosevelt-carousel-9 {
+background-image: url(../img/services/roosevelt/9.jpg);
 }
 
 
@@ -420,7 +424,7 @@ outline: none;
 }
 
 p {
-text-align: center;
+text-align: justify;
 font-size: 15px;
 font-weight: 500;
 letter-spacing: 0.05em;
@@ -1476,7 +1480,7 @@ color: #5f5f5f;
 /* 17. blockquote */
 .testimonial {
 position: relative;
-text-align: center;
+text-align: justify;
 margin: -5px 0 -30px 0;
 }
 
@@ -1602,7 +1606,7 @@ z-index: 1;
 #services p {
 position: relative;
 padding-left: 135px;
-text-align: center;
+text-align: justify;
 margin: -7px 0 0 0;
 }
 
