@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <title>
@@ -1022,7 +1022,11 @@
                                         <!-- skills bar start -->
                                         <div class="show-skillbar-2">
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque optio sequi culpa? Laborum consequuntur quis quo esse eaque ad earum obcaecati fugit rerum, nobis cumque. Itaque totam debitis molestiae.
+                                                Proyecto comercial Roosevelt se encuentra ubicado en Miraflores y consta de
+                                                dos impresionantes torres: de viviendas y oficinas. Este proyecto destaca por sus
+                                                acabados, texturas, colores y formas excepcionales, que realzan su esencia
+                                                distintiva. La torre de viviendas ofrece un ambiente tranquilo y elegante,
+                                                mientras que la torre de oficinas se presenta como una opción vibrante y audaz.
                                             </p>
                                         </div>
                                         <!-- skills bar end -->
@@ -1309,7 +1313,7 @@
                     <div id="google-maps-wrapper">
                         <!-- google maps start -->
                         <div class="google-maps">
-                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jf5kk575hQOUA-C5m3Q9Tkxh1Y4c0CA&ehbc=2E312F&ll=-12.107526418857907%2C-77.02697400293562&z=11"></iframe>
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jf5kk575hQOUA-C5m3Q9Tkxh1Y4c0CA&ehbc=2E312F&ll=-12.120617843199962%2C-77.0207941933653&z=10"></iframe>
                         </div>
                         <!-- google maps end -->
                     </div>
@@ -1443,20 +1447,31 @@
             </div>
         </div>
         <!-- photoSwipe background end -->
+        <div class="main-video" id="main-video">
+            <div class="video-container">
+                <video controls autoplay muted id="my-video">
+                    <source src="./img/Ro_De_Rivero.mp4" type="video/mp4" >
+                    Your browser does not support the video tag.
+                </video>
+                <button class="close-video" type="button" aria-label="Close (Press escape to close)" onclick="removeVideo()">×</button>
+            </div>
+        </div>
         <!-- scripts start -->
         <script src="js/plugins.js"></script> 
         <script src="js/dinex.js"></script>
         <script>
-        // Función para abrir el video en el lightbox con autoplay
-            function openVideoWithDelay() {
-                var lightbox = lity('./img/Ro_De_Rivero.mp4', {
-                autoplay: true
-                });
+            function removeVideo() {
+                const mainVideo = document.getElementById('main-video');
+                mainVideo.remove();
+                var element = document.getElementByTag("html");
+                element.classList.remove("hide-scroll");
             }
-
-            // Esperar 5 segundos (5000 milisegundos) después de que la página cargue
-            $(document).ready(function() {
-                setTimeout(openVideoWithDelay, 3000);
+            // Esperar 3 segundos (3000 milisegundos) después de que la página cargue
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(function() {
+                    const myVideo = document.getElementById('main-video');
+                    myVideo.classList.add("fade-in-video");
+                }, 2000);
             });
         </script>
         <!-- scripts end -->
