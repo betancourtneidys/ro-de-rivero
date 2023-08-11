@@ -8610,3 +8610,14 @@ color: #5f5f5f;
 }
 
 /* END */
+
+.language-selector {
+  display: flex;
+  margin: 10px;
+}
+
+.flag {
+  width: 30px;
+  cursor: pointer;
+  margin: 0 5px;
+}
